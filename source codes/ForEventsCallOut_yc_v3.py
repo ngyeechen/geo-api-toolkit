@@ -197,10 +197,10 @@ os.makedirs(output_path, exist_ok=True)
 
 
 #--SQL server read credentials--#
-SERVER = "spotlesssqlserver.database.windows.net"
-DATABASE = "spotless_production"
-USERNAME = "SpotlessReader"
-PASSWORD = "@Reader-12345="
+SERVER = ""
+DATABASE = ""
+USERNAME = ""
+PASSWORD = ""
 
 conn = pyodbc.connect(
     f"""
